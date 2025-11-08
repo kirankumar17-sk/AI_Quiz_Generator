@@ -1,0 +1,11 @@
+fastapi>=0.95.0
+uvicorn[standard]>=0.22.0
+sqlalchemy>=1.4
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+pydantic>=1.10.0
+python-dotenv>=1.0.0
+# LangChain/Google GenAI optional — only used if you set GEMINI_API_KEY.
+langchain-core>=0.0.300
+langchain-google-genai>=0.0.60
+langchain-community>=0.0.20
